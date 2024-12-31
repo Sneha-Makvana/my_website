@@ -8673,7 +8673,9 @@ h1, h2, h3, h4, h5,
   background: #24A148 !important; }
 
 .bg-darken {
-  background: #0f101c; }
+  /* background: #0f101c; */
+  background: #2D3A4F;
+}
 
 .btn {
   cursor: pointer;
@@ -8745,11 +8747,13 @@ h1, h2, h3, h4, h5,
   @media (max-width: 767.98px) {
     .property-wrap {
       margin-bottom: 40px; } }
-  .property-wrap .img {
-    display: block;
-    width: 100%;
-    height: 250px;
-    position: relative; }
+      .property-wrap .img {
+        display: block;
+        width: 98%;
+        height: 230px;
+        position: relative;
+        border-radius: 3px;
+    }
     .property-wrap .img .rent-sale {
       position: absolute;
       top: 10px;
@@ -8803,7 +8807,9 @@ h1, h2, h3, h4, h5,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
     background: #fff;
-    padding: 25px; }
+    padding: 25px;
+    width: 98%;
+   }
     .property-wrap .text h3 {
       font-size: 18px;
       margin-bottom: 0; }
@@ -9439,7 +9445,7 @@ textarea.form-control {
   font-weight: 700; }
   @media (max-width: 767.98px) {
     .heading-section h2 {
-      font-size: 28px; } }
+      font-size: 28px; } }  
 
 .heading-section.heading-section-white .subheading {
   color: rgba(255, 255, 255, 0.9); }
@@ -9551,8 +9557,9 @@ textarea.form-control {
     margin-bottom: 0;
     color: #000000; }
   .testimony-wrap .position {
-    font-size: 16px;
-    color: #b3b3b3; }
+    font-size: 13px;
+    color: black;
+   }
 
 .agent {
   position: relative;
@@ -10164,3 +10171,515 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    
+    
+  
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: space-between;
+  }
+    
+  .category {
+    position: relative;
+    width: calc(19% - 10px);
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+    
+    .category:hover {
+      transform: scale(1.05);
+    }
+    
+    .category img {
+      width: 100%;
+      height: 210px;
+      display: block;
+      object-fit: cover;
+    }
+    
+    .category .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding: 22px;
+      background: linear-gradient(to bottom, rgb(135 126 126 / 70%), rgb(0 0 0 / 40%));
+      color: #fff;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      transition: opacity 0.3s ease;
+  }
+    .category:hover .overlay {
+      opacity: 1;
+    }
+    
+    .category .overlay h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+    }
+    
+    .category .overlay p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 1024px) {
+      .categories {
+        gap: 15px;
+      }
+    
+      .category {
+        width: calc(33.333% - 10px);
+      }
+    
+      .category img {
+        height: 180px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .category {
+        width: calc(50% - 10px);
+      }
+    
+      .category img {
+        height: 150px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .category {
+        width: 100%;
+      }
+    
+      .category img {
+        height: 120px;
+      }
+    }
+
+ /* General Reset */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+} */
+
+/* Section Styling */
+/* .featured-categories {
+  padding: 50px 20px;
+  background: #fff;
+} */
+/* 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+/* Header */
+
+.view-all {
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Carousel Wrapper */
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.property-carousel {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.property-card {
+  flex: 0 0 30%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.property-card:hover {
+  transform: scale(1.05);
+}
+
+.property-card .property-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.property-info {
+  padding: 20px;
+}
+
+.property-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.property-location {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0;
+}
+
+.property-price {
+  font-size: 16px;
+  color: #007BFF;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.property-features {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #007BFF;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.badge.for-rent {
+  background: #28a745;
+}
+
+.badge.featured {
+  background: #ffc107;
+}
+
+/* Buttons */
+.carousel-btn11 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  z-index: 10;
+}
+
+
+.carousel-btn:hover {
+  background: #007BFF;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .property-card {
+    flex: 0 0 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .property-card {
+    flex: 0 0 100%;
+  }
+
+  .prev-btn, .next-btn {
+    left: 10px;
+    right: 10px;
+  }
+
+}
+
+.sec_price {
+  margin-left: 179px;
+  font-weight: 700;
+}
+
+/* Ensure the layout of image and content is side by side for larger screens */
+@media (min-width: 768px) {
+  .ftco-section {
+      padding: 60px 0;
+  }
+
+  .img-2 {
+      height: 465px;
+      background-size: cover;
+      background-position: center;
+  }
+
+  .wrap-about {
+      padding-left: 65px;
+  }
+
+  .property-details, .property-stats {
+      font-size: 16px;
+  }
+
+  .btn-primary {
+      font-size: 16px;
+      padding: 10px 20px;
+  }
+ 
+}
+
+/* Stack image and content for smaller screens */
+@media (max-width: 767px) {
+  .ftco-section .row {
+      flex-direction: column;
+  }
+
+  .col-md-6 {
+      width: 100%;
+  }
+
+  .img-2 {
+      height: 250px;
+      margin-bottom: 20px;
+  }
+
+  .wrap-about {
+      padding: 20px;
+  }
+
+  .property-details, .property-stats {
+      font-size: 14px;
+  }
+
+  .btn-primary {
+      font-size: 16px;
+      padding: 8px 16px;
+  }
+  .sec_price{
+    margin-left: 143px;
+  }
+}
+
+/* Optional: Style the icon next to the text in the property details */
+.property-details span, .property-stats span {
+  display: flex;
+  align-items: center;
+}
+
+.property-details i, .property-stats i {
+  margin-right: 5px;
+}
+
+.ul_price{
+  font-weight: 700;
+  font-size: 22px;
+}
+.btn-primary i {
+  margin-left: 8px; /* Add space between the text and the icon */
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover i {
+  transform: translateX(5px); /* Slightly move the arrow to the right when hovered */
+}
+
+span.location {
+  font-size: 16px;
+  /* padding-top: -31px; */
+  /* margin-top: 37px; */
+}
+p.mt-3.peg {
+  font-size: 15px;
+}
+span.beds {
+  font-size: 14px;
+}
+
+
+
+.hero1 {
+  position: relative;
+  height: 100vh;
+  background: url('images/place-1.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero1-content1 {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero1-content1 h1 {
+  font-size: 47px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero1-content1 p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.btn1 {
+  display: inline-block;  
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #24A148 !important;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+  background-color: #ff9800;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero1-content1 h1 {
+    font-size: 2rem;
+  }
+
+  .hero1-content1 p {
+    font-size: 0.9rem;
+  }
+
+  .btn1 {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero1-content1 h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero1-content1 p {
+    font-size: 0.8rem;
+  }
+
+  .btn1 {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+
+/* Container for the image */
+.image-container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Image background properties */
+.img-2 {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 460px;
+  border-radius: 15px; /* Adjust this value as per your need */
+}
+
+/* Content Section styling */
+.wrap-about {
+  padding-top: 30px; /* Padding for spacing */
+}
+
+.heading1-section1 {
+  margin-right: 20px;
+}
+
+.heading1-section1 h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  line-height: 30px;
+}
+
+.heading1-section1 p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Optional: Add responsiveness for smaller devices */
+@media (max-width: 768px) {
+  .img-2 {
+      height: 300px; /* Adjust height for smaller screens */
+  }
+
+  .wrap-about {
+      padding-top: 20px;
+  }
+}
+
+
+
+
+.main_page{
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-left: -64px;
+
+}
+.page1 {
+  margin-left: 120px;
+}
