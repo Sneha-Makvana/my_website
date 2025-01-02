@@ -12,38 +12,35 @@
 	<?php
 	include "header.php";
 	?>
-	<!-- END nav -->
 
-	<section class="hero-wrap mb-5" style="background-image: url('images/bg_1.jpg');">
-		<div class="overlay"></div>
-		<div class="container" style="position: relative;"> <!-- Add relative positioning here -->
+	<section class="hero-wrap mb-5" style="background-image: url('images/img1.jpg');">
+		<div class="container" style="position: relative;">
 			<div class="row no-gutters slider-text align-items-center">
 				<div class="col-lg-7 col-md-6 ftco-animate d-flex align-items-end">
 					<div class="text">
-						<h1 class="mb-4">Find Perfect <br>House From Your Area.</h1>
-						<p style="font-size: 18px;">From as low as $20 A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-						<p><a href="#" class="btn btn-primary py-3 px-4">View all properties</a></p>
+						<h1 class="mb-4">The #1 site real estate professionals trust*</h1>
+						<p class="pri1">
+							From as low as $10 per day with limited time offer discounts.
+						</p>
+						<p><a href="#" class="px-5">View all properties <i class="fas fa-arrow-right mx-2"></i></a></p>
 					</div>
 				</div>
 			</div>
 
-			<!-- Box with content on the bottom left -->
 			<div class="row">
-				<div class="col-12 d-flex justify-content-start main_page" style="position: absolute;"> <!-- Adjusted left and bottom values for spacing -->
-					<div class="">
-						<div class="d-flex bg-white p-3">
-							<div class="mr-5 page1">
-								<h5 class="mb-1">680</h5>
-								<p>Award Winning</p>
-							</div>
-							<div class="mr-5">
-								<h5 class="mb-1">8K+</h5>
-								<p>Happy Customers</p>
-							</div>
-							<div class="mr-5">
-								<h5 class="mb-1 page2">500+</h5>
-								<p>Property Ready</p>
-							</div>
+				<div class="col-12 d-flex justify-content-start main_page">
+					<div class="d-flex bg-yellow p-3 rounded-top-right">
+						<div class="mr-5 page1">
+							<h5 class="mb-1 main_row">680</h5>
+							<p class="text-dark">Award Winning</p>
+						</div>
+						<div class="mr-5">
+							<h5 class="mb-1 main_row">8K+</h5>
+							<p class="text-dark">Happy Customers</p>
+						</div>
+						<div class="mr-5">
+							<h5 class="mb-1 page2 main_row">500+</h5>
+							<p class="text-dark">Property Ready</p>
 						</div>
 					</div>
 				</div>
@@ -51,88 +48,6 @@
 		</div>
 	</section>
 
-
-
-	<!-- <section class="ftco-section ftco-no-pb ftco-no-pt search-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="search-wrap-1 ftco-animate p-4">
-						<form action="#" class="search-property-1">
-							<div class="row">
-								<div class="col-lg align-items-end">
-									<div class="form-group">
-										<label for="#">Keyword</label>
-										<div class="form-field">
-											<div class="icon"><span class="fa fa-search"></span></div>
-											<input type="text" class="form-control" placeholder="Enter Keyword">
-										</div>
-									</div>
-								</div>
-								<div class="col-lg align-items-end">
-									<div class="form-group">
-										<label for="#">Property Type</label>
-										<div class="form-field">
-											<div class="select-wrap">
-												<div class="icon"><span class="fa fa-chevron-down"></span></div>
-												<select name="" id="" class="form-control">
-													<option value="">Residence</option>
-													<option value="">Offices</option>
-													<option value="">Commercial</option>
-												</select>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg align-items-end">
-									<div class="form-group">
-										<label for="#">Location</label>
-										<div class="form-field">
-											<div class="icon"><span class="fa fa-search"></span></div>
-											<input type="text" class="form-control" placeholder="Location">
-										</div>
-									</div>
-								</div>
-								<div class="col-lg align-items-end">
-									<div class="form-group">
-										<label for="#">Price Limit</label>
-										<div class="form-field">
-											<div class="select-wrap">
-												<div class="icon"><span class="fa fa-chevron-down"></span></div>
-												<select name="" id="" class="form-control">
-													<option value="">$5,000</option>
-													<option value="">$10,000</option>
-													<option value="">$50,000</option>
-													<option value="">$100,000</option>
-													<option value="">$200,000</option>
-													<option value="">$300,000</option>
-													<option value="">$400,000</option>
-													<option value="">$500,000</option>
-													<option value="">$600,000</option>
-													<option value="">$700,000</option>
-													<option value="">$800,000</option>
-													<option value="">$900,000</option>
-													<option value="">$1,000,000</option>
-													<option value="">$2,000,000</option>
-												</select>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg align-self-end">
-									<div class="form-group">
-										<div class="form-field">
-											<input type="submit" value="Search" class="form-control btn btn-primary">
-										</div>
-									</div>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
 	<div class="row justify-content-center mb-5">
 		<div class="col-md-12 heading-section text-center ftco-animate mb-5">
 			<span class="subheading">Our Categories</span>
@@ -195,7 +110,7 @@
 					<div class="carousel-properties owl-carousel">
 						<div class="item text">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/work-1.jpg);">
+								<a href="#" class="img" style="background-image: url(images/pic1.jpg);">
 									<div class="rent-sale">
 										<span class="sale">Sale</span>
 									</div>
@@ -209,7 +124,7 @@
 										<span class="sec_price text-danger">$500,000</span>
 									</div>
 									<div class="property-details d-flex justify-content-between mt-4">
-										<span class="beds">
+										<span class="beds	">
 											<i class="fa fa-bed"></i> 4 Beds
 										</span>|
 										<span class="baths">
@@ -232,7 +147,7 @@
 
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/work-2.jpg);">
+								<a href="#" class="img" style="background-image: url(images/pic2.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>
@@ -270,7 +185,7 @@
 						</div>
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/work-3.jpg);">
+								<a href="#" class="img" style="background-image: url(images/pic3.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>
@@ -307,7 +222,7 @@
 						</div>
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/work-4.jpg);">
+								<a href="#" class="img" style="background-image: url(images/pic4.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>
@@ -347,7 +262,7 @@
 						</div>
 						<div class="item">
 							<div class="property-wrap ftco-animate">
-								<a href="#" class="img" style="background-image: url(images/work-5.jpg);">
+								<a href="#" class="img" style="background-image: url(images/pic4.jpg);">
 									<div class="rent-sale">
 										<span class="rent">Rent</span>
 									</div>
@@ -392,7 +307,53 @@
 	</section>
 
 
-	<section class="hero1 mt-5 mb-5" style="background-image: url('images/place-3.jpg');">
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12 text-center heading-section ftco-animate mb-5">
+					<!-- <span class="subheading">Services</span> -->
+					<h2 class="mb-3 sec_sev">Why You Should Work With Us</h2>
+					<p class="pri1">
+						From as low as $10 per day with limited discounts.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 services d-block text-center px-3 pb-4">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-home-repair"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Development</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 services d-block text-center px-3 pb-4">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-sales"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Sales Marketing</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 services d-block text-center px-3 pb-4">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-team"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Property Management</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="hero1 mt-5 mb-5" style="background-image: url('images/img4.jpg');">
 		<div class="overlay1"></div>
 		<div class="hero1-content1">
 			<h1 class="contentt">Discover a place you'll love to live</h1>
@@ -415,7 +376,7 @@
 			<div class="row">
 				<!-- Image Section -->
 				<div class="col-md-6 order-md-first d-flex align-items-stretch">
-					<div class="img w-100 img-2" style="background-image: url(images/about.jpg);"></div>
+					<div class="img w-100 img-2" style="background-image: url(images/img3.jpg);"></div>
 				</div>
 
 				<!-- Content Section -->
@@ -448,45 +409,6 @@
 							Learn More <i class="fa fa-arrow-right"></i>
 						</a>
 
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="ftco-counter img" id="section-counter">
-		<div class="container">
-			<div class="row pt-md-5">
-				<div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 py-5 mb-4">
-						<div class="text text-border d-flex align-items-center">
-							<strong class="number" data-number="1000">0</strong>
-							<span>Area <br>Population</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 py-5 mb-4">
-						<div class="text text-border d-flex align-items-center">
-							<strong class="number" data-number="2500">0</strong>
-							<span>Total <br>Properties</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 py-5 mb-4">
-						<div class="text text-border d-flex align-items-center">
-							<strong class="number" data-number="500">0</strong>
-							<span>Average <br>House</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 py-5 mb-4">
-						<div class="text d-flex align-items-center">
-							<strong class="number" data-number="67">0</strong>
-							<span>Total <br>Branches</span>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -620,7 +542,7 @@
 						<a href="#" class="btn btn-primary mt-3">
 							Register Now <i class="fa fa-arrow-right"></i>
 						</a>
-						<a href="tel:+1234567890" class="text-secondary mt-4 mx-4 ml-3 ">
+						<a href="tel:+1234567890" class="text-secondary mt-4 mx-4 ml-3 phone_call">
 							<i class="fa fa-phone mx-2"></i> +1 (234) 567-890
 						</a>
 					</div>
@@ -696,64 +618,64 @@
 		<div class="container">
 			<div class="row justify-content-center mb-5">
 				<div class="col-md-7 heading-section text-center ftco-animate">
-					<span class="subheading">Blog</span>
-					<h2>Recent Blog</h2>
+					<span class="subheading">Articles & News</span>
+					<h2>Recent Articles & News</h2>
 				</div>
 			</div>
 			<div class="row d-flex">
 				<div class="col-md-3 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
+					<div class="blog-entry justify-content-end border border-secondary rounded border border-light">
 						<div class="text">
-							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_1.jpg');">
+							<a href="blog-single.html" class="block-20 img rounded-lg" style="background-image: url('images/img_1.jpg');">
 							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+							<div class="meta mb-3 text-center text-dark">
+								<div class="blog_text"><a href="#">Admin . </a></div>
+								<div class="blog_date"><a href="#">June 01, 2020</a></div>
 							</div>
-							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading text-center mb-3"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<p><a href="#" class="px-5 text-dark font-weight-bold">Read More<i class="fas fa-arrow-right mx-2"></i></a></p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
+					<div class="blog-entry justify-content-end border border-secondary rounded border border-light">
 						<div class="text">
-							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_2.jpg');">
+							<a href="blog-single.html" class="block-20 img rounded-lg" style="background-image: url('images/img_2.jpg');">
 							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+							<div class="meta mb-3 text-center text-dark">
+								<div class="blog_text"><a href="#">Admin . </a></div>
+								<div class="blog_date"><a href="#">June 01, 2020</a></div>
 							</div>
-							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading text-center mb-3"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<p><a href="#" class="px-5 text-dark font-weight-bold">Read More<i class="fas fa-arrow-right mx-2"></i></a></p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
+					<div class="blog-entry justify-content-end border border-secondary rounded border border-light">
 						<div class="text">
-							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_3.jpg');">
+							<a href="blog-single.html" class="block-20 img rounded-lg" style="background-image: url('images/img_3.jpg');">
 							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+							<div class="meta mb-3 text-center text-dark">
+								<div class="blog_text"><a href="#">Admin . </a></div>
+								<div class="blog_date"><a href="#">June 01, 2020</a></div>
 							</div>
-							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading text-center mb-3"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<p><a href="#" class="px-5 text-dark font-weight-bold">Read More<i class="fas fa-arrow-right mx-2"></i></a></p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 d-flex ftco-animate">
-					<div class="blog-entry justify-content-end">
+					<div class="blog-entry justify-content-end border border-secondary rounded border border-light">
 						<div class="text">
-							<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_4.jpg');">
+							<a href="blog-single.html" class="block-20 img rounded-lg" style="background-image: url('images/img_4.jpg');">
 							</a>
-							<div class="meta mb-3">
-								<div><a href="#">June 01, 2020</a></div>
-								<div><a href="#">Admin</a></div>
-								<div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
+							<div class="meta mb-3 text-center text-dark">
+								<div class="blog_text"><a href="#">Admin . </a></div>
+								<div class="blog_date"><a href="#">June 01, 2020</a></div>
 							</div>
-							<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<h3 class="heading text-center mb-3"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+							<p><a href="#" class="px-5 text-dark font-weight-bold">Read More<i class="fas fa-arrow-right mx-2"></i></a></p>
 						</div>
 					</div>
 				</div>
